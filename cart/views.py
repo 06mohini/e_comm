@@ -4,7 +4,7 @@ from django.contrib import messages
 from .models import *
 from django.views.decorators.csrf import csrf_exempt
 from payment_gateway import Checksum
-MERCHANT_KEY = 'G6ve7i3Y_5khbGfI'
+MERCHANT_KEY = 'FP%UdMn6vDN5NJ&m'
 
 
 def  cart(request):
@@ -80,7 +80,7 @@ def order(request):
 
         #now request payment method to accept the payment by the user and transfer to your account
         data_dict = {
-            'MID':'XEljrT93681832887767',
+            'MID':'lRzcUc73355172369297',
             'ORDER_ID':str(order_id),
             'TXN_AMOUNT':str(amount),
             'CUST_ID':email,

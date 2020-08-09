@@ -181,3 +181,4 @@ def product_details(request,pk):
     } 
 
     return render(request,'products_details/product_details.html',context)
+    
